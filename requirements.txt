@@ -1,0 +1,10 @@
+
+## build requirements
+
+wheel
+twine
+
+## jinja_tornado requirements.txt
+
+tornado
+jinja2

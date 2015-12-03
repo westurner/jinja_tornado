@@ -1,14 +1,28 @@
+
+=============
 jinja_tornado
 =============
+| Source: https://github.com/thkang2/jinja_tornado
+| License: MIT License
 
 jinja2 support for tornado applications.
 
-## Install
+
+.. contents::
+
+
+Install
+===========
+
+.. code:: bash
 
     $ python setup.py install
 
 
-## Usage
+Usage
+=======
+
+.. code:: python
 
     from jinja_tornado import JinjaApp, JinjaTemplateMixin
 
@@ -37,7 +51,10 @@ jinja2 support for tornado applications.
     def foo_to_bar(x):
         return x.replace('foo', 'bar')
 
-## Template variables
+
+Template variables
+====================
+::
 
     request        => tornado.web.RequestHandler.request
     session        => tornado.web.RequestHandler.get_secure_cookie('session')
@@ -53,7 +70,11 @@ jinja2 support for tornado applications.
     handler        => tornado.web.RequestHandler (self)
     current_user   => tornado.web.requestHandler.current_user
     
-## Template filters
+
+Template filters
+====================
+
+::
 
     tojson       => JSON-encode the given python object
     
@@ -66,13 +87,16 @@ jinja2 support for tornado applications.
     squeeze      => tornado.escape.squeeze
     linkify      => tornado.escape.linkify
 
-## Todo
+
+Todo
+=====
 
 - write tests
 - no more opinionated `session` implementation
 - implement template preprocessors
 - UIModules, and various 'tornado' template structures
 
-## License
 
-see [LICENSE](LICENSE)
+License
+========
+MIT License. See: ``LICENSE``

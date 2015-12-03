@@ -13,7 +13,10 @@ def read_text_file(path, mode='r', encoding='utf8'):
     with codecs.open(full_path, mode, encoding=encoding) as file_:
         return file_.read()
 
-LONG_DESCRIPTION = read_text_file('README.rst')
+LONG_DESCRIPTION = '\n\n'.join((
+    read_text_file('README.rst'),
+    read_text_file('HISTORY.rst'),
+))
 
 setup(name='jinja_tornado',
       version='0.1.0',

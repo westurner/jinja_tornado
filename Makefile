@@ -9,7 +9,7 @@ clean:
 	rm -rf ./dist/
 
 install-build-requirements:
-	#@pip install -r ./requirements.txt
+	@#pip install -r ./requirements-dev.txt
 	pip install wheel twine
 
 build: clean

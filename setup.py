@@ -19,7 +19,7 @@ LONG_DESCRIPTION = u'\n\n'.join((
 ))
 
 setup(name='jinja_tornado',
-      version='0.1.1',
+      version='0.1.2',
       description='jinja2 template support for tornado web framework',
       author='thkang2, westurner',
       author_email='wes@wrd.nu',

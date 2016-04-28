@@ -1,0 +1,5 @@
+
+## jinja_tornado requirements.txt
+
+tornado
+jinja2

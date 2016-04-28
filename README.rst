@@ -97,6 +97,14 @@ Todo
 - UIModules, and various 'tornado' template structures
 
 
+Authors
+========
+* thkang2 -- https://github.com/thkang2/jinja_tornado (MIT License)
+* westurner -- https://github.com/westurner/jinja_tornado (MIT License)
+
+  * https://github.com/thkang2/jinja_tornado/pull/2
+
+
 License
 ========
 MIT License. See: ``LICENSE``

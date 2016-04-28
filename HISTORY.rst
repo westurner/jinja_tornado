@@ -5,11 +5,23 @@ History
 
 
 
-release/v0.1.0 (2016-04-28 17:13:31 -0500)
-------------------------------------------
+release/0.1.1 (2016-04-28 17:35:34 -0500)
+-----------------------------------------
 ::
 
-   git log --reverse --pretty=format:'* %s [%h]' b8d13ce..release/v0.1.0
+   git log --reverse --pretty=format:'* %s [%h]' v0.1.0..release/0.1.1
+
+* MRG: Merge tag 'vv0.1.0' into develop [dc7d3e6]
+* DOC: setup.py: PyPI trove classifiers [1e948a2]
+* BLD: setup.cfg: [wheel] universal=1 (py2.py3) [e2a35e9]
+* DOC: setup.py, __init__.py: v0.1.1 [7f3239a]
+
+
+v0.1.0 (2016-04-28 17:15:48 -0500)
+----------------------------------
+::
+
+   git log --reverse --pretty=format:'* %s [%h]' b8d13ce..v0.1.0
 
 * initial commit [2defc31]
 * 2nd commit [c05ab84]
@@ -29,4 +41,6 @@ release/v0.1.0 (2016-04-28 17:13:31 -0500)
 * DOC: HISTORY.rst: `git-changelog.py -r release/v0.1.0 --hdr=- | pbcopy` [824a131]
 * BLD: Makefile, requirements[-dev].txt: development requirements [54113b5]
 * BLD: Makefile: twine register because HTTPS [c4d1535]
+* DOC: HISTORY.rst: `git-changelog.py -r release/v0.1.0 --hdr=- | pbcopy` [e3b7d82]
+* MRG: Merge branch 'release/v0.1.0' [bf83680]
 

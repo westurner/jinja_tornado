@@ -19,7 +19,7 @@ LONG_DESCRIPTION = u'\n\n'.join((
 ))
 
 setup(name='jinja_tornado',
-      version='0.1.0',
+      version='0.1.1',
       description='jinja2 template support for tornado web framework',
       author='thkang2, westurner',
       author_email='wes@wrd.nu',
@@ -28,5 +28,19 @@ setup(name='jinja_tornado',
       packages=['jinja_tornado'],
       install_requires=['tornado', 'Jinja2'],
       license='MIT License',
-      zip_safe = False
+      zip_safe = False,
+      classifers=[
+        "Programming Language :: Python :: 2",
+        'Programming Language :: Python :: 3',
+        'Development Status :: 4 - Beta',
+        'Environment :: Console',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English',
+        'Operating System :: MacOS :: MacOS X',
+        'Operating System :: Microsoft :: Windows',
+        'Operating System :: POSIX :: Linux',
+        'Topic :: Internet',
+        'Topic :: Utilities',
+    ],
       )

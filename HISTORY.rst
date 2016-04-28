@@ -5,16 +5,29 @@ History
 
 
 
-release/0.1.1 (2016-04-28 17:35:34 -0500)
+release/0.1.2 (2016-04-28 17:43:11 -0500)
 -----------------------------------------
 ::
 
-   git log --reverse --pretty=format:'* %s [%h]' v0.1.0..release/0.1.1
+   git log --reverse --pretty=format:'* %s [%h]' v0.1.1..release/0.1.2
+
+* MRG: Merge tag 'v0.1.1' into develop [a78880c]
+* DOC: README.rst: source link to most recent maintainer [4c55b41]
+* DOC: setup.py, __init__.py: v0.1.2 [25707e8]
+
+
+v0.1.1 (2016-04-28 17:38:37 -0500)
+----------------------------------
+::
+
+   git log --reverse --pretty=format:'* %s [%h]' v0.1.0..v0.1.1
 
 * MRG: Merge tag 'vv0.1.0' into develop [dc7d3e6]
 * DOC: setup.py: PyPI trove classifiers [1e948a2]
 * BLD: setup.cfg: [wheel] universal=1 (py2.py3) [e2a35e9]
 * DOC: setup.py, __init__.py: v0.1.1 [7f3239a]
+* DOC: HISTORY.rst: `git-changelog.py -r release/0.1.1 --hdr=- | pbcopy` [616610b]
+* MRG: Merge branch 'release/0.1.1' [34f9b9a]
 
 
 v0.1.0 (2016-04-28 17:15:48 -0500)

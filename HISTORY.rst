@@ -3,7 +3,9 @@ History
 ========
 
 
-release/v0.1.0 (2016-04-28 17:04:39 -0500)
+
+
+release/v0.1.0 (2016-04-28 17:13:31 -0500)
 ------------------------------------------
 ::
 
@@ -24,4 +26,7 @@ release/v0.1.0 (2016-04-28 17:04:39 -0500)
 * DOC: LICENSE: amend (MIT) LICENSE copyright [0e6641a]
 * BLD: MANIFEST.in: add MANIFEST.in [746358b]
 * BLD: Makefile: 'python setup.py check -r -s' [d196959]
+* DOC: HISTORY.rst: `git-changelog.py -r release/v0.1.0 --hdr=- | pbcopy` [824a131]
+* BLD: Makefile, requirements[-dev].txt: development requirements [54113b5]
+* BLD: Makefile: twine register because HTTPS [c4d1535]
 

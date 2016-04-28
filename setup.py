@@ -13,7 +13,7 @@ def read_text_file(path, mode='r', encoding='utf8'):
     with codecs.open(full_path, mode, encoding=encoding) as file_:
         return file_.read()
 
-LONG_DESCRIPTION = '\n\n'.join((
+LONG_DESCRIPTION = u'\n\n'.join((
     read_text_file('README.rst'),
     read_text_file('HISTORY.rst'),
 ))
@@ -21,9 +21,9 @@ LONG_DESCRIPTION = '\n\n'.join((
 setup(name='jinja_tornado',
       version='0.1.0',
       description='jinja2 template support for tornado web framework',
-      author='thkang2',
-      author_email='thkang91@gmail.com',
-      url='https://github.com/thkang2/jinja_tornado',
+      author='thkang2, westurner',
+      author_email='wes@wrd.nu',
+      url='https://github.com/westurner/jinja_tornado',
       long_description=LONG_DESCRIPTION,
       packages=['jinja_tornado'],
       install_requires=['tornado', 'Jinja2'],

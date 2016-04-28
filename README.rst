@@ -2,7 +2,7 @@
 =============
 jinja_tornado
 =============
-| Source: https://github.com/thkang2/jinja_tornado
+| Source: https://github.com/westurner/jinja_tornado
 | License: MIT License
 
 jinja2 support for tornado applications.

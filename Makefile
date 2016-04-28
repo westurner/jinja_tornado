@@ -13,6 +13,7 @@ install-build-requirements:
 	pip install wheel twine
 
 build: clean
+	python setup.py check -r -s
 	python setup.py build
 
 dist: build

@@ -1,0 +1,6 @@
+
+## build requirements
+
+wheel
+twine
+

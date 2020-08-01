@@ -5,6 +5,17 @@ History
 
 
 
+release/0.1.3 (2020-07-31 21:43:26 -0400)
+-----------------------------------------
+::
+
+   git log --reverse --pretty=format:'* %s [%h]' v0.1.2..release/0.1.3
+
+* MRG: Merge tag 'v0.1.2' into develop \[dfdd5a0\]
+* REF: jinja_tornado.py: 2to3 py3 \[ec31ca0\]
+* RLS: setup.py,__init__.py: v0.1.3 \[9d5ded4\]
+
+
 release/0.1.2 (2016-04-28 17:43:11 -0500)
 -----------------------------------------
 ::

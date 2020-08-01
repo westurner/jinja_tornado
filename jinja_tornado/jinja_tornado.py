@@ -69,10 +69,10 @@ class JinjaApp(object):
 def dumps(obj, **kwargs):
     # https://github.com/mitsuhiko/flask/blob/master/flask/json.py
     rv = json.dumps(obj, **kwargs) \
-        .replace(u'<', u'\\u003c') \
-        .replace(u'>', u'\\u003e') \
-        .replace(u'&', u'\\u0026') \
-        .replace(u"'", u'\\u0027')
+        .replace('<', '\\u003c') \
+        .replace('>', '\\u003e') \
+        .replace('&', '\\u0026') \
+        .replace("'", '\\u0027')
 
     return rv
 
@@ -92,7 +92,7 @@ class JinjaTemplateMixin(object):
 
         # jinja environment is shared among an application
         if not 'jinja_environment' in self.application.settings:
-            raise RuntimeError, "Needs jinja2 Environment. Initialize with JinjaApp.init_app first"
+            raise RuntimeError("Needs jinja2 Environment. Initialize with JinjaApp.init_app first")
 
         else:
             self._jinja_env = self.application.settings['jinja_environment']
